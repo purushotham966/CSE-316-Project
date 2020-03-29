@@ -94,14 +94,14 @@ float avg_wait_time(int wt[], int n)
         {
             remain_time[pq[0]-1]=remain_time[pq[0]-1]-time_quantum;
             time=time+time_quantum;
-            printf("Process %d executed for %d runs till time %d\n",pq[0],time_quantum,time);
+            printf("Process %c executed for %d MIN runs till time %d\n",process[pq[0]-1],time_quantum,time);
             
         }
        
         else
         {
             time=time+remain_time[pq[0]-1];
-            printf("Process %d executed for %d runs till time %d\n",pq[0],remain_time[pq[0]-1],time);
+            printf("Process %c executed for %d MIN runs till time %d\n",process[pq[0]-1],remain_time[pq[0]-1],time);
             remain_time[pq[0]-1]=0;
             flag=1;
         
@@ -185,4 +185,6 @@ int main()
         
         printf("Please selet the correct option by running the program again.");
     }
-  }
+  } 
+  
+ 
