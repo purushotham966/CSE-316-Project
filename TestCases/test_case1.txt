@@ -1,0 +1,25 @@
+1
+Enter number of process or queries for FACULTY queue : 4
+enter the fixed time to be spent on queries:-3
+a -->process name
+0-->arraval time
+10-->burst time
+
+b
+1
+4
+
+c
+2
+5
+
+d
+3
+3
+
+
+
+
+
+
+

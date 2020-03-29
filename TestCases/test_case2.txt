@@ -1,0 +1,23 @@
+-->
+2
+Enter number of process or queries for STUDENT queue : 5
+enter the fixed time to be spent on queries:-2
+a -->process name
+0-->arraval time
+5-->burst time
+
+b
+1
+3
+
+c
+2
+1
+
+d
+3
+2
+
+e
+4
+3
